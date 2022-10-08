@@ -19,7 +19,7 @@ functions:
     handler: handler.createContact
     events:
       - http:
-          path: /contact-us
+          path: /
           method: post
           cors: true
 
